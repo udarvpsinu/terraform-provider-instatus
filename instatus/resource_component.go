@@ -61,8 +61,9 @@ func resourceComponent() *schema.Resource {
 			},
 			"group_name": {
 				Type:        schema.TypeString,
+				Optional:    true,
 				Computed:    true,
-				Description: "The name of the parent group (read-only)",
+				Description: "The name of the parent group (for display)",
 			},
 			"archived": {
 				Type:        schema.TypeBool,
