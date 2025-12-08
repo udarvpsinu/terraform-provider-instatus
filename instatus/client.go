@@ -24,7 +24,7 @@ type Client struct {
 type Component struct {
 	ID           string                 `json:"id,omitempty"`
 	Name         string                 `json:"name"`
-	Description  string                 `json:"description,omitempty"`
+	Description  string                 `json:"description"`
 	Status       string                 `json:"status"`
 	ShowUptime   bool                   `json:"showUptime"`
 	Order        int                    `json:"order,omitempty"`
